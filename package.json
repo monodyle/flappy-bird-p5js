@@ -1,0 +1,18 @@
+{
+  "name": "flappy-bird",
+  "version": "1.0.0",
+  "description": "FlappyBird",
+  "main": "sketch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "flappy-bird"
+  ],
+  "author": "monodyle",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+  }
+}
