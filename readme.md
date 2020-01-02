@@ -19,6 +19,12 @@ grunt
 
 Open your browser at `http://localhost:8000/`
 
-![](assets/birdy-algorithm.jpg)
+
+
+## Screenshot
+
+<p align="center"><img src="/assets/screenshot.png"></p>
 
 Just a simple game, may contain lots of errors 🤣🤣
+
+![](assets/birdy-algorithm.jpg)
