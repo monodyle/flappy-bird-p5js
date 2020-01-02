@@ -7,11 +7,15 @@
 - Install [Node](http://nodejs.org/download/) and [Grunt](http://gruntjs.com/)
 - Install the dependencies
 
-  npm install
+```
+npm install
+```
 
 Then just type on your bash:
 
-  grunt
+```
+grunt
+```
 
 Open your browser at `http://localhost:8000/`
 
