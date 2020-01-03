@@ -1,4 +1,5 @@
 <p align="center"><img src="/assets/repository-open-graph-template.jpg" width="400"></p>
+<p align="center">[Play](https://monodyle.github.io/flappy-bird-p5js/)</p>
 
 🎮 A flappy-bird game write with [p5js](https://p5js.org/)
 
@@ -10,13 +11,13 @@ For the developer mode:
 - Install the dependencies
 
 ```bash
-npm install
+$ npm install
 ```
 
 Then just type on your bash:
 
 ```bash
-grunt
+$ grunt
 ```
 
 Open your browser at `http://localhost:8000/`
@@ -26,8 +27,8 @@ Game can't run if you do not have **http(s) server** because p5.js fetch asset b
 Also can try `http-server` instead of `grunt` if you just need http-server to play a game.
 
 ```bash
-npm install [-g] http-server
-http-server
+$ npm install [-g] http-server
+$ http-server
 ```
 
 ## Screenshot

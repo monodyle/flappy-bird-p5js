@@ -18,7 +18,6 @@ function Bird() {
 
   this.up = function () {
     this.velocity += this.lift;
-    console.log(this.velocity);
   }
 
   this.update = function () {

@@ -8,7 +8,7 @@ let point = 0;
 function setup() {
   createCanvas(640, 720);
   bird = new Bird();
-  pipes.push(new Pipe());
+  pipes.push(new Pipe);
 
   bg = loadImage('assets/background.png')
 }
@@ -25,7 +25,7 @@ function draw() {
   }
 
   for (let i = pipes.length - 1; i >= 0; i--) {
-    pipes[i].show()
+    pipes[i].show();
 
     if (!gameOver) pipes[i].update();
 
@@ -73,8 +73,8 @@ function draw() {
 
 function reset() {
   bird = new Bird();
-  pipes = [];
-  pipes.push(new Pipe());
+  pipes.length = 0;
+  pipes.push(new Pipe);
   point = 0;
   gameOver = false;
   redraw();

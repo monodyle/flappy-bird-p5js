@@ -31,8 +31,8 @@ function Pipe() {
   }
 
   this.hit = function (bird) {
-    if (bird.y < this.top || bird.y > height - this.bottom) {
-      if (bird.x > this.x && bird.x < this.x + this.w) {
+    if (bird.y + bird.height / 2 < this.top || (bird.y  + bird.height / 2) > (height - this.bottom)) {
+      if ((bird.x + bird.width / 2) > this.x && (bird.x + bird.width / 2) < (this.x + this.w)) {
         this.touched = true;
         return true;
       }
