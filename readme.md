@@ -7,17 +7,18 @@
 
 For the developer mode:
 
-- Install [Node](http://nodejs.org/download/) and [Grunt](http://gruntjs.com/)
+- Install [Node](http://nodejs.org/download/) and [Gulp](https://gulpjs.com/)
 - Install the dependencies
 
 ```bash
 $ npm install
+$ npm install gulp-cli -g # Server + BrowserSync
 ```
 
 Then just type on your bash:
 
 ```bash
-$ grunt
+$ gulp
 ```
 
 Open your browser at `http://localhost:8000/`
